@@ -11,7 +11,7 @@ Use Wireshark to identify a TCP conversation and reconstruct the application dat
 1. Review **Statistics → Conversations → TCP** to compare TCP conversations.
 2. Narrow the packet list to the lab's chat service with the display filter:
 
-   \`tcp.port == 5000\`
+   `tcp.port == 5000`
 
 3. Inspect the initial SYN packet to determine which endpoint initiated the connection.
 4. Select a packet carrying application data and choose **Follow → TCP Stream**.

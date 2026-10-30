@@ -10,7 +10,7 @@ Investigate how login form submissions travel over HTTP and understand why crede
 
 1. Filter for HTTP POST requests:
 
-   \`http.request.method == "POST"\`
+   `http.request.method == "POST"`
 
 2. Inspect the request path and source/destination fields.
 3. Open the packet details and review the **HTML Form URL Encoded** section.

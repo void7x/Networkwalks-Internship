@@ -8,9 +8,9 @@ Identify a VoIP call in captured traffic, distinguish call signalling from the m
 
 ## Investigation workflow
 
-1. Use the \`sip\` display filter to locate call-signalling packets.
+1. Use the `sip` display filter to locate call-signalling packets.
 2. Inspect SIP call setup messages, including INVITE and response messages.
-3. Use the \`rtp\` display filter to identify Real-time Transport Protocol media packets.
+3. Use the `rtp` display filter to identify Real-time Transport Protocol media packets.
 4. Inspect an RTP packet's payload type to review codec information.
 5. Open **Telephony → VoIP Calls**, select the call and use the stream playback controls in the lab to inspect the media.
 

@@ -58,8 +58,8 @@ No real organisation's network was tested as part of these write-ups. Any future
 
 ## Repository contents
 
-- \`assets/results-summary.svg\` — original vector summary of the six assessment results.
-- \`labs/\` — individual lab notes and learning outcomes.
+- `assets/results-summary.svg` — original vector summary of the six assessment results.
+- `labs/` — individual lab notes and learning outcomes.
 
 ## Tools and protocols
 

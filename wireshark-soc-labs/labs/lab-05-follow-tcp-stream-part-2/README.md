@@ -8,13 +8,13 @@ Inspect HTTP conversations and reconstruct page responses to understand how cont
 
 ## Investigation workflow
 
-1. Use the \`http\` display filter to focus on HTTP packets.
+1. Use the `http` display filter to focus on HTTP packets.
 2. Follow relevant HTTP GET requests with **Follow → TCP Stream**.
 3. Inspect the server response and review the returned page content.
 4. Look for HTML comments in the response body. Comments are part of the transferred source even though a browser does not display them as normal page text.
 5. Use a URI filter to narrow the traffic to download requests:
 
-   \`http.request.uri contains "download"\`
+   `http.request.uri contains "download"`
 
 6. Follow the relevant stream and inspect the response content.
 

@@ -8,22 +8,22 @@ Investigate repeated FTP authentication attempts, distinguish failed and success
 
 ## Investigation workflow
 
-1. Use the \`ftp\` display filter to isolate FTP traffic.
+1. Use the `ftp` display filter to isolate FTP traffic.
 2. Review username commands:
 
-   \`ftp.request.command == "USER"\`
+   `ftp.request.command == "USER"`
 
 3. Review password-command packets without copying their values:
 
-   \`ftp.request.command == "PASS"\`
+   `ftp.request.command == "PASS"`
 
 4. Isolate failed authentication responses:
 
-   \`ftp.response.code == 530\`
+   `ftp.response.code == 530`
 
 5. Review successful authentication responses:
 
-   \`ftp.response.code == 230\`
+   `ftp.response.code == 230`
 
 6. Correlate repeated attempts and server responses to determine whether the traffic is consistent with brute-force behaviour.
 
