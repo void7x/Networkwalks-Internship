@@ -32,6 +32,7 @@ The exact VirtualBox menu labels can vary slightly between releases. The require
 - **[Troubleshooting](docs/troubleshooting.md)** – common issues and checks from the Week 1 module.
 - **[Verification script](scripts/verify-lab.sh)** – a small Bash script to check the guest configuration.
 - **[Evidence folder](evidence/README.md)** – the screenshot checklist for the lab.
+- **[Wireshark SOC lab portfolio](wireshark-soc-labs/README.md)** – six guided network-security investigations, practical notes and assessment results.
 
 ## Quick verification
 
