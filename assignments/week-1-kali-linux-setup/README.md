@@ -135,11 +135,11 @@ These results verify IP connectivity and DNS-based hostname resolution at the ti
 - [x] Bidirectional drag-and-drop tested.
 - [x] External IP connectivity and DNS resolution tested.
 - [x] Final VirtualBox snapshot visible in VirtualBox Snapshots view as `Kali-WK1-PM1` (8 November 2026).
-- [x] Five curated setup screenshots and a LinkedIn collage added under `evidence/`.
+- [ ] Curated screenshot PNGs and LinkedIn collage uploaded to the repository (prepared locally; binary upload remains pending).
 
 ## Evidence
 
-See [evidence/README.md](evidence/README.md) for the screenshot index. The [LinkedIn collage](evidence/kali-wk1-pm1-linkedin-collage.png) combines the authentic setup captures into one portrait image. Five curated screenshots are included; one duplicate/accidental terminal capture was excluded. Personal Windows path details, the virtual adapter MAC address and unrelated Downloads filenames were removed from the public evidence.
+See [evidence/README.md](evidence/README.md) for the screenshot index. Five curated screenshots and a portrait LinkedIn collage have been organized in a separate evidence bundle for upload. The binary image files are not yet present in this repository. One duplicate/accidental terminal capture was excluded. Personal Windows path details, the virtual adapter MAC address and unrelated Downloads filenames were removed from the prepared evidence.
 
 ## Scope and safety
 
