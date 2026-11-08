@@ -89,7 +89,7 @@ The following VirtualBox guest modules were present:
 - `vboxguest`
 - `vboxsf`
 
-The host Windows Downloads folder was configured as a permanent, auto-mounted shared folder named `Downloads`. Kali detected it at:
+The host Windows Downloads folder was configured as an auto-mounted shared folder named `Downloads`. Kali detected it at:
 
 ```text
 /media/sf_Downloads
@@ -134,14 +134,12 @@ These results verify IP connectivity and DNS-based hostname resolution at the ti
 - [x] Bidirectional clipboard tested.
 - [x] Bidirectional drag-and-drop tested.
 - [x] External IP connectivity and DNS resolution tested.
-- [ ] Final VirtualBox snapshot — **not yet confirmed in the available evidence**.
-- [ ] Actual setup screenshots uploaded to this assignment folder.
+- [x] Final VirtualBox snapshot visible in VirtualBox Snapshots view as `Kali-WK1-PM1` (8 November 2026).
+- [x] Five curated setup screenshots and a LinkedIn collage added under `evidence/`.
 
 ## Evidence
 
-See [evidence/README.md](evidence/README.md) for the evidence checklist and intended screenshot filenames.
-
-Only screenshots captured from the actual host and VM should be added. No screenshots have been included in this change because the actual screenshot image files were not provided to the repository update.
+See [evidence/README.md](evidence/README.md) for the screenshot index. The [LinkedIn collage](evidence/kali-wk1-pm1-linkedin-collage.png) combines the authentic setup captures into one portrait image. Five curated screenshots are included; one duplicate/accidental terminal capture was excluded. Personal Windows path details, the virtual adapter MAC address and unrelated Downloads filenames were removed from the public evidence.
 
 ## Scope and safety
 
