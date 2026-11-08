@@ -4,7 +4,7 @@ This folder is reserved for curated screenshots captured from the actual `Kali-W
 
 ## Prepared evidence index
 
-The five image files and the LinkedIn collage have been organized locally in the evidence bundle. They are **not yet committed to this repository**.
+The five image files and a plain five-photo collage have been organized locally in the evidence bundle. They are **not yet committed to this repository**.
 
 | Filename | What it shows | Status |
 |---|---|---|
@@ -13,7 +13,7 @@ The five image files and the LinkedIn collage have been organized locally in the
 | `03-static-ip-route-and-connectivity.png` | Kali static address `10.0.0.2/24`, default route through `10.0.0.1`, and successful IP/DNS ping tests. | Prepared locally; upload pending |
 | `04-shared-folder-write-and-connectivity.png` | Shared-folder test file creation/listing/removal and connectivity results. Unrelated Downloads filenames have been cropped out. | Prepared locally; upload pending |
 | `05-final-vm-snapshot.png` | VirtualBox Snapshots view showing the `Kali-WK1-PM1` snapshot. | Prepared locally; upload pending |
-| `kali-wk1-pm1-linkedin-collage.png` | Portrait collage composed from the five screenshots above. | Prepared locally; upload pending |
+| `kali-wk1-pm1-simple-collage.png` | Plain combined image of the five screenshots above, with no generated graphics or decorative overlays. | Prepared locally; upload pending |
 
 ## Curation and privacy
 
