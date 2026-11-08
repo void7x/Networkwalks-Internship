@@ -139,7 +139,7 @@ These results verify IP connectivity and DNS-based hostname resolution at the ti
 
 ## Evidence
 
-See [evidence/README.md](evidence/README.md) for the screenshot index. Five curated screenshots and a portrait LinkedIn collage have been organized in a separate evidence bundle for upload. The binary image files are not yet present in this repository. One duplicate/accidental terminal capture was excluded. Personal Windows path details, the virtual adapter MAC address and unrelated Downloads filenames were removed from the prepared evidence.
+See [evidence/README.md](evidence/README.md) for the screenshot index. Five curated screenshots and a plain five-photo LinkedIn collage have been organized in a separate evidence bundle for upload. The binary image files are not yet present in this repository. One duplicate/accidental terminal capture was excluded. Personal Windows path details, the virtual adapter MAC address and unrelated Downloads filenames were removed from the prepared evidence.
 
 ## Scope and safety
 
