@@ -65,3 +65,13 @@ The script checks the expected address, default route, connectivity, DNS resolut
 ## Scope
 
 Week 1 is focused on preparing and checking the virtual lab. Any later testing should be performed only against systems that are owned by the user or for which explicit permission has been given.
+
+## Week 2 — Footprinting and Network Scanning
+
+The Week 2 practical documentation is maintained separately from the Week 1 Kali setup and Wireshark portfolio:
+
+- **[Week 2 assignment overview](assignments/week-2-footprinting-network-scanning/README.md)**
+- **[PM1 — Footprinting with Kali tools](assignments/week-2-footprinting-network-scanning/PM1-Footprinting/README.md)**
+- **[PM5 — Network scanning with Zenmap](assignments/week-2-footprinting-network-scanning/PM5-Zenmap/README.md)**
+
+Public files contain sanitized summaries only. Original screenshots, command logs, the Zenmap XML export, topology PDF and the completed final report remain in the private assignment evidence package for submission through the internship's approved channel.
