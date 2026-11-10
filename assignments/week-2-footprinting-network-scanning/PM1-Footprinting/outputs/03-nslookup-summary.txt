@@ -1,0 +1,14 @@
+PM1 — NSLookup (public-safe summary)
+Target: networkwalks.com
+Command: nslookup networkwalks.com
+Configured resolver shown in output: 8.8.8.8
+
+Observed:
+- An initial DNS communication timeout was reported for 8.8.8.8 on port 53.
+- The command subsequently returned a non-authoritative answer.
+- The domain resolved successfully to an IPv4 address.
+
+Interpretation:
+The initial resolver timeout did not prevent the command from eventually returning an answer. The original output is retained privately for the exact returned address and full console details.
+
+This file is a summary, not the raw terminal output.
