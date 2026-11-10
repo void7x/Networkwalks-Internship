@@ -1,0 +1,17 @@
+PM1 — cURL response-header inspection (public-safe summary)
+Target: https://networkwalks.com
+Command: curl -I https://networkwalks.com
+
+Observed:
+- HTTP/2 200
+- Server header: Apache
+- Content-Type: text/html; charset=UTF-8
+- WordPress REST API links were advertised in the Link header.
+- Referrer-Policy and Permissions-Policy headers were present.
+- A WordPress Download Manager cookie was set with Secure and HttpOnly attributes.
+- Cache-related headers were present.
+
+Security and privacy note:
+The original response included a cookie value. That value is intentionally omitted from this public summary. The original output should remain private; never publish session-cookie values.
+
+This file is a summary, not the raw terminal output.

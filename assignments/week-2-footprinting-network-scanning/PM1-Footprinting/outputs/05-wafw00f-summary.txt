@@ -1,0 +1,13 @@
+PM1 — WAFW00F detection (public-safe summary)
+Target: https://networkwalks.com
+Tool: WAFW00F v2.4.2
+Command: wafw00f https://networkwalks.com
+
+Observed:
+- WAFW00F identified a ModSecurity (SpiderLabs) WAF signature.
+- Number of requests reported: 2.
+
+Limitation:
+A fingerprinting result does not prove that every attack is blocked or that the WAF configuration is effective.
+
+This file is a summary. The original terminal output is retained privately.

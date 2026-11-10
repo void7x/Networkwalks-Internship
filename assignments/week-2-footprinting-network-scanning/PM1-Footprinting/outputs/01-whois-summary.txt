@@ -1,0 +1,15 @@
+PM1 — WHOIS lookup (public-safe summary)
+Target: networkwalks.com
+Command: whois networkwalks.com
+
+Observed fields:
+- Registrar: GoDaddy.com, LLC
+- Creation date: 2019-11-06
+- Registry expiry date: 2027-11-06
+- Nameservers: NS6135.HOSTGATOR.COM and NS6136.HOSTGATOR.COM
+- DNSSEC: unsigned
+- Domain status included client-side transfer/update/delete/renew protection locks.
+
+The response also displayed a WHOIS database retirement notice and a rate-limit message after returning the registry fields. This is retained as a limitation of the query.
+
+This file is a summary. The original terminal output is retained privately.
