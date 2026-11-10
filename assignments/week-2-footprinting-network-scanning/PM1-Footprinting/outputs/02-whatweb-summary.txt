@@ -1,0 +1,14 @@
+PM1 — WhatWeb fingerprinting (public-safe summary)
+Target: networkwalks.com
+Command: whatweb networkwalks.com
+
+Observed:
+- HTTP endpoint returned 301 Moved Permanently and redirected to HTTPS.
+- HTTPS endpoint returned 200 OK.
+- Fingerprints included Apache, WordPress, Bootstrap, jQuery, Google Tag Manager and HTML5.
+- Page title: Networkwalks Academy.
+- WordPress-related generator signature also identified WordPress Download Manager.
+
+Note: WhatWeb uses response fingerprints; these signatures are observations, not a guarantee of every installed component or version. Public IP, email and other unnecessary values are omitted from this summary.
+
+This file is a summary. The original terminal output is retained privately.
