@@ -1,0 +1,18 @@
+PM1 — DNSRecon (public-safe summary)
+Target: networkwalks.com
+Command: dnsrecon -d networkwalks.com
+
+Observed record categories:
+- SOA
+- MX
+- A
+- TXT
+- SRV (autodiscover service records were printed)
+
+The tool's summary line stated: “8 Records Found”.
+A DNSSEC query returned no answer.
+
+Interpretation:
+WHOIS also reported DNSSEC as unsigned. This is documented only as an observation and is not, by itself, a finding of an exploitable vulnerability.
+
+Sensitive TXT values and infrastructure identifiers are omitted from this public summary. The original output is retained privately.
