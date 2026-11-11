@@ -25,7 +25,7 @@ The first scan displayed a warning that Nmap could not import all required Npcap
 - Nmap reported two MAC addresses.
 - The scanner workstation's Wi-Fi MAC was retrieved separately using Windows `ipconfig /all`.
 
-The three responding hosts were the local gateway, a device whose MAC vendor lookup identified Xiaomi Communications, and the Windows workstation running Zenmap. The detailed addresses and MAC mappings are included in the assignment report and results file.
+The three responding hosts were the local gateway, a device whose MAC vendor lookup identified Xiaomi Communications, and the Windows workstation running Zenmap. The private IP and MAC values are redacted in the public XML and Wi-Fi details files.
 
 ## Commands and exports
 
@@ -35,9 +35,13 @@ The Zenmap Ping Scan profile generated an Nmap host-discovery command equivalent
 nmap -sn <authorized-local-subnet>/24
 ```
 
-The [results folder](results/README.md) documents the XML scan export, topology PDF and Windows Wi-Fi details. The Windows Wi-Fi details text file is already committed; the XML and PDF remain to be uploaded as binary files.
+The [results folder](results/README.md) contains the sanitized public Nmap XML export, the Zenmap topology PDF (`zenmap-ping-scan.pdf`) and redacted Windows Wi-Fi details.
 
-The [screenshots folder](screenshots/README.md) lists four authentic screenshots from the corrected scan and adapter inspection. They remain to be uploaded as binary files.
+The [screenshots folder](screenshots/README.md) contains four authentic screenshots captured from Zenmap and Windows PowerShell.
+
+## Privacy note
+
+The uploaded screenshots are original captures and still display private LAN IP/MAC identifiers and workstation details. They should be replaced with redacted copies before public submission. Do not publish the original local network identifiers. The original, unmodified scan artifacts should remain in the private assignment archive.
 
 ## Interpretation and limitations
 
@@ -48,4 +52,4 @@ The [screenshots folder](screenshots/README.md) lists four authentic screenshots
 
 ## Completion
 
-The corrected Zenmap scan completed successfully after the Npcap update. The XML and topology PDF were saved locally, and the host details and screenshots were organized in the private PM5 evidence folder.
+The corrected Zenmap scan completed successfully after the Npcap update. The XML and topology PDF are uploaded to this branch; the public XML and Wi-Fi details are redacted copies. The four original screenshots are also uploaded and still need privacy-safe replacements.
