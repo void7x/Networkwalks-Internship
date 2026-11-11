@@ -1,0 +1,6 @@
+Adapter: Wi-Fi
+IPv4: 10.95.75.151
+Subnet Mask: 255.255.255.0
+Gateway: 10.95.75.116
+MAC Address: 50-BB-B5-F0-85-62
+Network: 10.95.75.0/24
