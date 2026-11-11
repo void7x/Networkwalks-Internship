@@ -1,16 +1,20 @@
 # Week 2 — Final report and submission note
 
-The final report was prepared using the internship's supplied report template and the actual PM1 and PM5 practical findings.
+The report was prepared using the internship's supplied report template and the actual PM1 and PM5 practical findings.
 
-The report contains the student's name and batch details and includes private local-network identifiers in the PM5 findings. For that reason, the completed DOCX and any PDF export should be retained in the private assignment package and submitted only through the official internship submission route confirmed by the coordinator.
+## Current repository state
 
-The public GitHub repository contains sanitized technical documentation and summaries. It does not contain the student's unredacted report, private LAN IP/MAC mapping, raw Zenmap XML, or unredacted screenshots.
+- The public repository contains sanitized PM1 text outputs and a sanitized PM5 Nmap XML copy.
+- The Zenmap topology PDF is present at `PM5-Zenmap/results/zenmap-ping-scan.pdf`.
+- Four original PM5 screenshots and six PM1 image files are present. The screenshots have not yet been privacy-redacted; PM1 also has a duplicate WAFW00F capture and lacks the genuine WhatWeb screenshot.
+- A file named `Final-Report/Untitled document.pdf` is present, but its contents have not yet been verified as the completed Week 2 report. The expected DOCX is not present in this branch.
 
-Before final submission:
-- Confirm the official upload/hand-in instructions with the internship coordinator.
-- Include the required PM1 command outputs and screenshots.
-- Include the PM5 Zenmap XML export and topology PDF.
-- Include the final report in the format requested by the coordinator.
-- Keep a copy of the submission confirmation.
+## Before submission
 
-The Week 2 assignment portal's GitHub and LinkedIn link fields should be populated only after the relevant repository content and LinkedIn post are ready.
+- Verify the uploaded PDF is the completed report with the correct student details and PM1/PM5 results.
+- Check the coordinator's required report format; upload the DOCX too if requested.
+- Add the genuine WhatWeb screenshot and replace the duplicate WAFW00F image.
+- Replace PM1 cURL/DNSRecon screenshots and PM5 screenshots with privacy-redacted copies, while retaining original captures privately.
+- Confirm the official submission instructions and keep the submission confirmation.
+
+The Week 2 assignment portal's GitHub and LinkedIn link fields should be populated only after the repository evidence has been checked and the LinkedIn post is ready.
