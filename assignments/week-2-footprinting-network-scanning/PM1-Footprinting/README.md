@@ -36,11 +36,19 @@ All six required tools were present before the exercises began.
 
 ## Text evidence
 
-The six command-output files are committed in [outputs/](outputs/README.md). The public copies redact the cURL cookie value and Google site-verification token; the original unmodified logs remain in the local evidence package.
+The six command-output files and corresponding summaries are committed in [outputs/](outputs/README.md). The public cURL output redacts the cookie value and the public DNSRecon output redacts the Google site-verification token. Keep the original unmodified logs in the private evidence archive.
 
-## Screenshot evidence
+## Screenshot evidence and current limitation
 
-The supplied ZIP contained five distinct PM1 screenshots. The duplicate WAFW00F screenshot was omitted. The WhatWeb screenshot (`02-whatweb.png`) was not present in that ZIP, so it has not been fabricated. Add the genuine screenshot captured separately to complete the six-image set.
+Six PM1 image files are present in the branch, but they do **not** represent six different tools:
+
+- `Screenshot_2026-11-09_05_17_20.png`: WHOIS output.
+- `Screenshot_2026-11-09_05_22_19.png`: NSLookup output.
+- `Screenshot_2026-11-09_05_24_24.png`: cURL headers.
+- `Screenshot_2026-11-09_07_28_50.png`: DNSRecon output.
+- `Screenshot_2026-11-09_07_35_40.png` and `Screenshot_2026-11-09_07_42_47.png`: WAFW00F output (duplicate captures).
+
+The genuine WhatWeb screenshot is still missing from this branch. Do not create a replacement from the text output. Also, the cURL and DNSRecon screenshots show values that were redacted from the public text logs; replace them with safely redacted screenshots before treating the public evidence set as complete.
 
 ## Scope
 
