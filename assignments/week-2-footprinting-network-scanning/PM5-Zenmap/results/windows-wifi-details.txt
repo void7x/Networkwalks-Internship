@@ -1,6 +1,8 @@
 Adapter: Wi-Fi
-IPv4: 10.95.75.151
-Subnet Mask: 255.255.255.0
-Gateway: 10.95.75.116
-MAC Address: 50-BB-B5-F0-85-62
-Network: 10.95.75.0/24
+IPv4: [PRIVATE LAN ADDRESS REDACTED]
+Subnet Mask: 255.255.255.0 (/24)
+Gateway: [PRIVATE LAN ADDRESS REDACTED]
+MAC Address: [REDACTED]
+Network: [PRIVATE LAN SUBNET REDACTED]
+
+The original values are retained in the private assignment evidence and final report. This public copy is redacted to avoid exposing the user's home-network addressing and hardware identifier.
