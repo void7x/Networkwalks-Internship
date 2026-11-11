@@ -1,7 +1,5 @@
 # Week 2 — Final report
 
-The completed Word report is named:
+A PDF named `Untitled document.pdf` is present in this folder.
 
-`Week2-Final-Internship-Report-Sahil-Ahire.docx`
-
-It contains the student's name and batch B084H and documents the actual PM1 and PM5 findings. The DOCX is included in the local upload package; binary upload to this repository still needs the GitHub web upload step.
+**Verification status:** its contents have not yet been checked against the completed Week 2 report. Do not treat the file as verified or rename it as the final report until its pages, student details and PM1/PM5 findings are confirmed. The expected file name from the prepared Word draft is `Week2-Final-Internship-Report-Sahil-Ahire.docx`; that DOCX is not currently present in this branch.
