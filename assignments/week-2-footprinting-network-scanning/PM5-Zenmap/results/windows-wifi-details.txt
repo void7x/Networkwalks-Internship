@@ -1,0 +1,8 @@
+Adapter: Wi-Fi
+IPv4: [PRIVATE LAN ADDRESS REDACTED]
+Subnet Mask: 255.255.255.0 (/24)
+Gateway: [PRIVATE LAN ADDRESS REDACTED]
+MAC Address: [REDACTED]
+Network: [PRIVATE LAN SUBNET REDACTED]
+
+The original values are retained in the private assignment evidence and final report. This public copy is redacted to avoid exposing the user's home-network addressing and hardware identifier.
