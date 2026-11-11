@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Public sanitized copy: private LAN IP and MAC addresses replaced. Original scan export retained privately. -->
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?><nmaprun args="nmap -sn 192.0.2.0/24" profile_name="Ping scan" scanner="nmap" start="1794231696" startstr="Mon Nov  9 19:11:36 2026" version="7.993" xmloutputversion="1.04"><verbose level="0"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.993 ( https://nmap.org ) at 2026-11-09 19:11 +0530
+Nmap scan report for 192.0.2.1
+Host is up (0.0030s latency).
+MAC Address: 02:00:00:00:00:01 (Unknown)
+Nmap scan report for 192.0.2.2
+Host is up (1.2s latency).
+MAC Address: 02:00:00:00:00:02 (Xiaomi Communications)
+Nmap scan report for 192.0.2.3
+Host is up.
+Nmap done: 256 IP addresses (3 hosts up) scanned in 13.81 seconds
+</output><host comment=""><status state="up"></status><address addr="192.0.2.1" vendor="" addrtype="ipv4"></address><address addr="02:00:00:00:00:01" vendor="" addrtype="mac"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.0.2.2" vendor="" addrtype="ipv4"></address><address addr="02:00:00:00:00:02" vendor="Xiaomi Communications" addrtype="mac"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.0.2.3" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><runstats><finished time="1794231709" timestr="Mon Nov  9 19:11:49 2026"></finished><hosts up="3" down="253" total="256"></hosts></runstats></nmaprun>
