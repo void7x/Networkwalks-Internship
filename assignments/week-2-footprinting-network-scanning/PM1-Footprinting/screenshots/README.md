@@ -1,11 +1,14 @@
 # PM1 — Screenshot evidence
 
-The uploaded source ZIP contained these genuine PM1 screenshots:
+Six image files are currently present in this folder, but only five distinct tools are represented:
 
-- 01-whois.png
-- 03-nslookup.png
-- 04-curl.png (cookie value redacted in public copy)
-- 05-wafw00f.png
-- 06-dnsrecon.png (Google site-verification token redacted in public copy)
+| Uploaded image | Evidence shown | Status |
+|---|---|---|
+| `Screenshot_2026-11-09_05_17_20.png` | WHOIS output | Uploaded |
+| `Screenshot_2026-11-09_05_22_19.png` | NSLookup output | Uploaded |
+| `Screenshot_2026-11-09_05_24_24.png` | cURL response headers | Uploaded; cookie value visible |
+| `Screenshot_2026-11-09_07_28_50.png` | DNSRecon output | Uploaded; Google verification token visible |
+| `Screenshot_2026-11-09_07_35_40.png` | WAFW00F output | Duplicate capture |
+| `Screenshot_2026-11-09_07_42_47.png` | WAFW00F output | Duplicate capture |
 
-The ZIP contained a duplicate WAFW00F screenshot and did not contain the separately expected WhatWeb screenshot (02-whatweb.png). The duplicate was omitted. Add the genuine WhatWeb screenshot separately to complete the six-screenshot set; it must not be fabricated from the text output.
+**Still missing:** the genuine WhatWeb screenshot. The cURL and DNSRecon screenshots need redacted replacement copies before public submission. Keep the original captures privately; do not fabricate screenshots.
