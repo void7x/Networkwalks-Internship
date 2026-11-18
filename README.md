@@ -75,3 +75,14 @@ The Week 2 practical documentation is maintained separately from the Week 1 Kali
 - **[PM5 — Network scanning with Zenmap](assignments/week-2-footprinting-network-scanning/PM5-Zenmap/README.md)**
 
 Public files contain sanitized summaries only. Original screenshots, command logs, the Zenmap XML export, topology PDF and the completed final report remain in the private assignment evidence package for submission through the internship's approved channel.
+
+
+## Week 3 — Password Cracking
+
+The Week 3 mandatory practicals are documented separately:
+
+- **[Week 3 assignment overview](assignments/week-3-password-cracking/README.md)**
+- **[PM1 — John the Ripper](assignments/week-3-password-cracking/PM1-John-the-Ripper/README.md)**
+- **[PM2 — NetworkWalks Tools](assignments/week-3-password-cracking/PM2-NetworkWalks-Tools/README.md)**
+
+Public screenshots use the original capture filenames with sensitive hashes, recovered passwords and lab flags redacted. Original target PDFs and cracking hashes remain in the private evidence archive.
